@@ -214,6 +214,7 @@ select {
     -moz-appearance: none; /* Firefox 36+ */
 }
 
+
 select::-ms-expand {
     display: none; /* Internet Explorer 11+ */
 }

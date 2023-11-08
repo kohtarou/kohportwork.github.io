@@ -2,23 +2,19 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta property='og:type' content='website'>
-<meta property='og:title' content='WebデザイナーTARO YAMADA ポートフォリオ'>
+<meta property='og:title' content='WebデザイナーKOUTAROU NAKAO ポートフォリオ'>
 <meta property='og:url' content='URLが入る'>
-<meta property='og:description' content='TARO YAMADAのポートフォリオサイトです。'>
+<meta property='og:description' content='KOUTAROU NAKAOのポートフォリオサイトです.'>
 <meta property="og:image" content="img/ogp.png">
-<meta name="description" content="TARO YAMADAのポートフォリオサイトです" />
-<title>TARO YAMADA ポートフォリオ</title>
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
-<link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
-<link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
-<link rel="shortcut icon" href="img/favicon.ico" />
-<link rel=”canonical” href=”URLが入る” />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<meta name="description" content="KOUTAROU NAKAOのポートフォリオサイトです" />
+<title>KOUTAROU NAKAO ポートフォリオ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- この行を追加 -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+
+
 <html>
 <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
