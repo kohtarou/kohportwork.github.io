@@ -17,6 +17,11 @@ body {
     padding: 0px 30px;
 }
 
+.works-img img {
+    max-width: 100%;
+    height: auto;
+}
+
 h1 {
     position: relative;
     text-align: center;
