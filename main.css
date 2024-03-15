@@ -2,8 +2,8 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     font-family: "Yu Gothic", system-ui;
-    --theme-color-1: rgb(219, 74, 255);
-    --theme-color-2: rgb(121, 255, 242);
+    --theme-color-1: rgb(87, 56, 241);
+    --theme-color-2: rgb(24, 230, 34);
     color: #646464;
     box-sizing: border-box;
 }
