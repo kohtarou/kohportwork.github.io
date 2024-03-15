@@ -31,7 +31,7 @@ html {
   }
 
 
-.skill-body{
+.skill-item{
 display: flex;
 justify-content: space-around;
 }
