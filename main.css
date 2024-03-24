@@ -137,11 +137,11 @@ h2 {
 
 .item-list {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .item-list .item {
-    width: 22%;
+    width: 20%;
     margin: 0;
     padding: 0 0 20px 0;
     box-sizing: border-box;
@@ -155,6 +155,7 @@ h2 {
 
 .item-list .item .image img {
     width: 100%;
+    height: 100px;
 }
 
 .item-list .item .title {
@@ -169,6 +170,46 @@ h2 {
     padding: 0 20px;
     font-size: 16px;
 }
+
+
+
+.skill-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-item .item {
+    width: 20%;
+    margin: 0;
+    padding: 0 0 20px 0;
+    box-sizing: border-box;
+    background: #eeffee;
+}
+
+.skill-item .item .image {
+    margin: 0;
+    padding: 0;
+}
+
+.skill-list .item .image img {
+    width: 100%;
+    height: 100px;
+}
+
+.skill-list .item .title {
+    margin: 10px 0 0;
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.skill-list .item .description {
+    margin: 5px 0 0;
+    padding: 0 20px;
+    font-size: 16px;
+}
+
+
 
 a {
     text-decoration: none;
