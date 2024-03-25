@@ -55,10 +55,6 @@ html {
   }
 
 
-.skill-item{
-display: flex;
-justify-content: space-around;
-}
 
 
 .img-item {
@@ -134,6 +130,14 @@ h2 {
     border-bottom: 3px solid solid #ff0000;
 
 }
+
+
+.navlink {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
 
 .item-list {
     display: flex;
