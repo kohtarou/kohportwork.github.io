@@ -154,8 +154,8 @@ h2 {
 }
 
 .item-list .item .image img {
-    width: 80%;
-    height: 80px;
+    width: 100%;
+    height: 100px;
 }
 
 .item-list .item .title {
@@ -192,8 +192,8 @@ h2 {
 }
 
 .skill-item .item .image img {
-    width: 80%;
-    height: 80px;
+    width: 100%;
+    height: 100px;
 }
 
 .skill-item .item .title {
