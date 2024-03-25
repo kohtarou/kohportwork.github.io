@@ -81,6 +81,12 @@ body {
 }
 
 
+.works-img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
 .works-img img {
     max-width: 100%;
     height: auto;
