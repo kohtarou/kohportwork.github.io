@@ -84,20 +84,31 @@ body {
 .works-list1 {
     display: flex;
     justify-content: space-evenly;
+    width: 60%;
+    margin: 0;
+    padding: 0 0 60px 0;
+    box-sizing: border-box;
+    background: #eef0ff;
 }
 
 
 .works-list1 .works-img {
     margin: 0;
     padding: 0;
-
 }
 
 
 .works-list1 .works-img .img {
     width: 80%;
     height: 80px;
-    object-position :50% 50%;
+
+}
+
+
+.works-list .works-img .description {
+    margin: 5px 0 0;
+    padding: 0 20px;
+    font-size: 16px;
 }
 
 
@@ -224,7 +235,7 @@ h2 {
     margin: 0;
     padding: 0 0 20px 0;
     box-sizing: border-box;
-    background: #eeffee;
+    background: #eef0ff;
 }
 
 .item-list .item .image {
@@ -262,7 +273,7 @@ h2 {
     margin: 0;
     padding: 0 0 20px 0;
     box-sizing: border-box;
-    background: #eeffee;
+    background: #eef0ff;
 }
 
 .skill-item .item .image {
