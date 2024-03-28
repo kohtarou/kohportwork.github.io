@@ -83,7 +83,7 @@ body {
 
 .works-list1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 
@@ -98,14 +98,12 @@ body {
     width: 80%;
     height: 80px;
     object-position :50% 50%;
-    border: solid 2px #777777; 
-    border-radius: 8px;
 }
 
 
 .works-list2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 
@@ -125,7 +123,7 @@ body {
 
 .works-list3 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 
@@ -144,7 +142,7 @@ body {
 
 .works-list4 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 
