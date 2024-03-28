@@ -135,7 +135,9 @@ p .worktext {
     text-align: center;
 }
 
-
+works-img {
+    text-align:center;
+}
 
 .gnav-list {
     display: flex;
