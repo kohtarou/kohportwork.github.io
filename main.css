@@ -130,6 +130,13 @@ h2 {
 }
 
 
+
+p .worktext {
+    text-align: center;
+}
+
+
+
 .gnav-list {
     display: flex;
     justify-content: space-evenly;
