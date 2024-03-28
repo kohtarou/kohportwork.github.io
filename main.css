@@ -136,7 +136,8 @@ p .worktext {
 }
 
 .work-list {
-    text-align:center;
+    text-align: left;
+    background-color: beige;
 }
 
 .gnav-list {
