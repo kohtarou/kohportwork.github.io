@@ -68,6 +68,11 @@ background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
  
  }
 
+img {
+    border: solid 2px #777777; 
+    border-radius: 8px;
+}
+
 
 
 body {
@@ -89,8 +94,7 @@ body {
 .works-list1 .works-img {
     margin: 0;
     padding: 0;
-    border: solid 2px #777777; 
-    border-radius: 8px;
+
 }
 
 
@@ -109,8 +113,7 @@ body {
 .works-list2 .works-img {
     margin: 0;
     padding: 0;
-    border: solid 2px #777777; 
-    border-radius: 8px;
+
 }
 
 
@@ -129,8 +132,7 @@ body {
 .works-list3 .works-img {
     margin: 0;
     padding: 0;
-    border: solid 2px #777777; 
-    border-radius: 8px;
+
 }
 
 
@@ -148,8 +150,7 @@ body {
 .works-list4 .works-img {
     margin: 0;
     padding: 0;
-    border: solid 2px #777777; 
-    border-radius: 8px;
+
 }
 
 
