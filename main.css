@@ -87,7 +87,7 @@ body {
 
 .works-list1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 
@@ -106,7 +106,7 @@ body {
 
 .works-list2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 
@@ -125,7 +125,7 @@ body {
 
 .works-list3 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 
@@ -143,7 +143,7 @@ body {
 
 .works-list4 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 
