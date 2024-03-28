@@ -101,6 +101,7 @@ body {
 .works-list1 .works-img .img {
     width: 80%;
     height: 80px;
+    object-position :50% 50%;
 }
 
 
@@ -120,6 +121,7 @@ body {
 .works-list2 .works-img .img {
     width: 110%;
     height: 110px;
+    object-position :50% 50%;
 }
 
 
@@ -139,6 +141,7 @@ body {
 .works-list3 .works-img .img {
     width: 80%;
     height: 80px;
+    object-position :50% 50%;
 }
 
 .works-list4 {
@@ -157,6 +160,7 @@ body {
 .works-list4 .works-img .img {
     width: 80%;
     height: 80px;
+    object-position :50% 50%;
 }
 
 
