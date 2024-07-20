@@ -62,18 +62,17 @@ h1:after {
 .works-img1 {
     display: flex;
     gap: 0 43px;
-    width: 776px;
+    width: 100%;
     margin: 0 auto;
     justify-content: flex-start;
 }  
 
-.works-img1 .item {
+/*.works-img1 .item {
     width: 50%;
-}
+}*/
 
 .works-img1 .item img {
-    
-    height: 200px;
+    height: 220px;
     object-fit: cover;
 }
 
