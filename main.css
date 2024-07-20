@@ -1,10 +1,10 @@
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    font-family: "Yu Gothic", system-ui;
+    font-family: 'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
     --theme-color-1: rgb(87, 56, 241);
     --theme-color-2: rgb(24, 230, 34);
-    color: #646464;
+    color: #454545;
     box-sizing: border-box;
 }
 
@@ -14,6 +14,7 @@ h1 {
     border-top: solid 2px black;
     border-bottom: solid 2px black;
 }
+
 h1:before, h1:after {
     content: '';
     position: absolute;
@@ -23,9 +24,11 @@ h1:before, h1:after {
     height: calc(100% + 14px);
     background-color: black;
 }
+
 h1:before {
     left: 7px;
 }
+
 h1:after {
     right: 7px;
 }
@@ -80,13 +83,13 @@ background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
 .img-item {
 
     width: 100%;
- 
+
     height: 300px;
- 
+
     object-fit: cover; /* width, heightといっしょに使います */
- 
+
     border: 1px solid #111;
- 
+
 }
 
 
@@ -95,14 +98,12 @@ background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
 body {
     color: var(--main-foreground);
     line-height: 1.5;
+    box-sizing: border-box;
     word-wrap: break-word;
     max-width: 980px;
     margin: 2em auto;
-    padding: 0px 30px;
+    padding: 0px 100px;
 }
-
-
-
 
 
 h1 {
@@ -150,7 +151,12 @@ h2 {
 
 }
 
-
+h3 {
+    padding: 0.25em 0.5em;/*上下 左右の余白*/
+    color: #494949;/*文字色*/
+    background: transparent;/*背景透明に*/
+    border-left: solid 5px #7db4e6;/*左線*/
+}
 
 p .worktext {
     text-align: center;
