@@ -67,11 +67,11 @@ h1:after {
 }  
 
 .works-img1 .item {
-    width: 33.33333%;
+    width: 45%;
 }
 
 .works-img1 .item img {
-    width: 100%;
+    
     height: 200px;
     object-fit: cover;
 }
