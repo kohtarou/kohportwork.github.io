@@ -23,7 +23,7 @@ html {
 
 h1 {
     position: relative;
-    padding: 0.45em 1.5em;
+    padding: 0.25em 1em;
     border-top: solid 2px black;
     border-bottom: solid 2px black;
     text-align: center;
@@ -50,24 +50,28 @@ h1:after {
 }
 
 h2 {
-    position: relative;/*相対位置*/
-    padding: 0.5em 0.5em 0.5em 1.5em;/*アイコン分のスペース*/
-    line-height: 1.4;/*行高*/
-    color: #ff6a6a;/*文字色*/
-    border-top: dotted 1px gray;
-    border-bottom: dotted 1px gray;
-    background: #fffff4;
+    position: relative;
+    padding-left: 25px;
 }
 
 h2:before {
-    font-family: Font Awesome;/*忘れずに*/
-    content: "\f138";/*アイコンのユニコード*/
-    font-weight: 900;
-    position: absolute;/*絶対位置*/
-    font-size: 1em;/*サイズ*/
-    left: 0.25em;/*アイコンの位置*/
-    top: 0.5em;/*アイコンの位置*/
-    color: #ff6a6a; /*アイコン色*/
+    position: absolute;
+    content: '';
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 15px transparent;
+    border-bottom: solid 15px rgb(119, 195, 223);
+}
+h2:after {
+    position: absolute;
+    content: '';
+    bottom: -3px;
+    left: 10px;
+    width: 100%;
+    border-bottom: solid 3px rgb(119, 195, 223);
 }
 
 h3 {
