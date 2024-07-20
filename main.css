@@ -126,14 +126,14 @@ h4 {
     object-fit: cover;
 }
 
-.works-img3 {
+.works-img4 {
     display: flex;
     gap: 0 0px;
     width: 30%;
     justify-content: flex-start;
 }  
 
-.works-img3 .ws-img3 img {
+.works-img4 .ws-img4 img {
     height: 200px;
     object-fit: cover;
 }
