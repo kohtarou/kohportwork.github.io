@@ -118,12 +118,11 @@ h4 {
     display: flex;
     gap: 0 0px;
     width: 30%;
-    margin: 0 auto;
     justify-content: flex-start;
 }  
 
 .works-img2 .ws-img2 img {
-    height: 250px;
+    height: 200px;
     object-fit: cover;
 }
 
