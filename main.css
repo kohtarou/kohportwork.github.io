@@ -34,48 +34,16 @@ h1:after {
 }
 
 .boxwrap{
-    margin:30px auto;
-    width:300px;
-    padding:30px 60px;
-    border:1px solid #ddd;
-    background-color:#efefef;
-    border-radius:10px;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #474747;
+    background: whitesmoke;/*背景色*/
+    border-left: double 7px #4ec4d3;/*左線*/
+    border-right: double 7px #4ec4d3;/*右線*/
 }
-
-
-.wrap{
-    margin:auto;
-    width:300px;
-    background-color:#7178a7;
-    color:#fff;
-    border-radius:10px;
-}
-
-
-.mgb-20{
-    margin-bottom:20px;
-}
-
-
-.wrap.pattern-1{
-    text-align:center;
-    padding:20px 0;
-}
-
-
-.bg_pattern {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: #ffe9a7;
-    opacity: 0.4;
-    z-index: -1;
-}
-.Cross {
-background: radial-gradient(circle, transparent 20%, #ffe9a7 20%, #ffe9a7 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ffe9a7 20%, #ffe9a7 80%, transparent 80%, transparent) 50px 50px, linear-gradient(#ffc107 4px, transparent 4px) 0 -2px, linear-gradient(90deg, #ffc107 4px, #ffe9a7 4px) -2px 0;
-background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
+.boxwrap p {
+    margin: 0; 
+    padding: 0;
 }
 
 
@@ -102,7 +70,7 @@ body {
     word-wrap: break-word;
     max-width: 980px;
     margin: 2em auto;
-    padding: 0px 100px;
+    padding: 0px 60px;
 }
 
 
@@ -158,14 +126,7 @@ h3 {
     border-left: solid 5px #7db4e6;/*左線*/
 }
 
-p .worktext {
-    text-align: center;
-}
 
-.work-list {
-    text-align: center;
-    background-color: beige;
-}
 
 .gnav-list {
     display: flex;
