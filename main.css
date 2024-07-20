@@ -98,7 +98,7 @@ h4 {
     padding: 0;
 }
 
-.works-img1 {
+.ws-img1 {
     display: flex;
     gap: 0 40px;
     width: 100%;
@@ -108,12 +108,13 @@ h4 {
 /*.works-img1 .item {
     width: 50%;
 }*/
-.works-img1 .item img {
+.ws-img1 .item img {
     height: 250px;
     object-fit: cover;
 }
 
-.works-img1 {
+
+.ws-img2 {
     display: flex;
     gap: 0 40px;
     width: 100%;
@@ -121,21 +122,9 @@ h4 {
     justify-content: flex-start;
 }  
 
-.works-img1 .item img {
+.ws-img2 .item img {
     height: 250px;
     object-fit: cover;
-}
-
-.img-item {
-
-    width: 100%;
-
-    height: 300px;
-
-    object-fit: cover; /* width, heightといっしょに使います */
-
-    border: 1px solid #111;
-
 }
 
 
