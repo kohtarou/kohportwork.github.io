@@ -122,7 +122,7 @@ h4 {
 }  
 
 .works-img2 .ws-img2 img {
-    height: 200px;
+    height: 160px;
     object-fit: cover;
 }
 
@@ -300,6 +300,42 @@ body {
     font-size: 16px;
 }
 
+
+.item-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item-list .item {
+    width: 20%;
+    margin: 0;
+    padding: 0 0 20px 0;
+    box-sizing: border-box;
+    background: #eef0ff;
+}
+
+.item-list .item .image {
+    margin: 0;
+    padding: 0;
+}
+
+.item-list .item .image img {
+    width: 100%;
+    height: 150px;
+}
+
+.item-list .item .title {
+    margin: 10px 0 0;
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.item-list .item .description {
+    margin: 5px 0 0;
+    padding: 0 20px;
+    font-size: 16px;
+}
 
 
 a {
