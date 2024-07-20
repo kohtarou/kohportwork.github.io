@@ -23,9 +23,12 @@ html {
 
 h1 {
     position: relative;
-    padding: 0.25em 1em;
+    padding: 0.45em 1.5em;
     border-top: solid 2px black;
     border-bottom: solid 2px black;
+    text-align: center;
+    font-size: 280%;
+    letter-spacing: 0.1em;
 }
 
 h1:before, h1:after {
@@ -57,7 +60,7 @@ h2 {
 }
 
 h2:before {
-    font-family: "Font Awesome 5 Free";/*忘れずに*/
+    font-family: Font Awesome;/*忘れずに*/
     content: "\f138";/*アイコンのユニコード*/
     font-weight: 900;
     position: absolute;/*絶対位置*/
