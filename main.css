@@ -98,7 +98,7 @@ h4 {
     padding: 0;
 }
 
-.ws-img1 {
+.works-img1 {
     display: flex;
     gap: 0 40px;
     width: 100%;
@@ -108,13 +108,13 @@ h4 {
 /*.works-img1 .item {
     width: 50%;
 }*/
-.ws-img1 .item img {
+.works-img1 .ws-img1 img {
     height: 250px;
     object-fit: cover;
 }
 
 
-.ws-img2 {
+.works-img2 {
     display: flex;
     gap: 0 40px;
     width: 100%;
@@ -122,7 +122,7 @@ h4 {
     justify-content: flex-start;
 }  
 
-.ws-img2 .item img {
+.works-img2 .ws-img2 img {
     height: 250px;
     object-fit: cover;
 }
