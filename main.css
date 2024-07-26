@@ -139,6 +139,17 @@ h4 {
 }
 
 
+.works-img5 {
+    display: flex;
+    gap: 0 0px;
+    width: 40%;
+    justify-content: flex-start;
+}  
+
+.works-img5 .ws-img5 img {
+    height: 300px;
+    object-fit: cover;
+}
 
 
 
