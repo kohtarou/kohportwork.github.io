@@ -152,16 +152,15 @@ h4 {
 }
 
 .works-img6 {
-    display: flex;
     gap: 0 0px;
-    width: 40%;
+    width: 100%;
     justify-content: flex-start;
-}  
+} 
 
 .works-img6 .ws-img6 img {
     height: 200px; /* 画像の高さを自動調整 */
     object-fit: cover; /* 画像をコンテナに合わせてカバー */
-    border: solid 10px #000; /* 画像に枠線を追加 */
+    border: solid 2px #000; /* 画像に枠線を追加 */
 }
 
 body {
