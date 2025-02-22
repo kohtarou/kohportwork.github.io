@@ -155,6 +155,7 @@ h4 {
     max-width: 100%; /* 画像の幅をコンテナに合わせる */
     height: auto; /* 画像の高さを自動調整 */
     object-fit: cover; /* 画像をコンテナに合わせてカバー */
+    max-height: 200px; /* 画像の最大高さを200pxに設定 */
 }
 
 body {
