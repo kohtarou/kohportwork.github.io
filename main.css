@@ -8,7 +8,6 @@ html {
     box-sizing: border-box;
 }
 
-
 .bg_pattern {
     position: fixed;
     top: 0px;
@@ -19,7 +18,6 @@ html {
     opacity: 0.4;
     z-index: -1;
 }
-
 
 h1 {
     position: relative;
@@ -113,7 +111,6 @@ h4 {
     object-fit: cover;
 }
 
-
 .works-img2 {
     display: flex;
     gap: 0 0px;
@@ -138,7 +135,6 @@ h4 {
     object-fit: cover;
 }
 
-
 .works-img5 {
     display: flex;
     gap: 0 0px;
@@ -153,12 +149,12 @@ h4 {
 
 .works-img6 {
     gap: 0 0px;
-    width: 100%;
+    width: 300%;
     justify-content: flex-start;
 } 
 
 .works-img6 .ws-img6 img {
-    height: 200px; /* 画像の高さを自動調整 */
+    height: 300px; /* 画像の高さを自動調整 */
     object-fit: cover; /* 画像をコンテナに合わせてカバー */
     border: solid 2px #000; /* 画像に枠線を追加 */
 }
@@ -170,11 +166,8 @@ body {
     word-wrap: break-word;
     max-width: 980px;
     margin: 2em auto;
-    padding: 0px 60px;
+    padding: 0px 120px;
 }
-
-
-
 
 .mine {
     position: sticky;
@@ -188,11 +181,8 @@ body {
 
 .pic0,
 .pic1 {
-
     border: 4px dashed var(--theme-color-2);
-
     border: 4px solid #ff0000;
-
     width: 85%;
     position: sticky;
     text-align: center;
@@ -200,15 +190,10 @@ body {
     margin-right: auto;
 }
 
-
-
-
 .gnav-list {
     display: flex;
     justify-content: space-evenly;
 }
-
-
 
 .item-list {
     display: flex;
@@ -246,118 +231,42 @@ body {
     font-size: 16px;
 }
 
-
-
-.skill-item {
+.skill-item, .skill-item2 {
     display: flex;
     justify-content: start;
 }
 
-.skill-item .item {
-    width: 20%;
+.skill-item .item, .skill-item2 .item {
+    width: 20%; /* 幅を統一 */
     margin: 0;
     padding: 0 0 20px 0;
     box-sizing: border-box;
     background: #eef0ff;
+    border: #000 solid 1px;
 }
 
-.skill-item .item .image {
+.skill-item .item .image, .skill-item2 .item .image {
     margin: 0;
     padding: 0;
 }
 
-.skill-item .item .image img {
-    width: 100%;
-    height: 150px;
+.skill-item .item .image img, .skill-item2 .item .image img {
+    width: 100%; /* 幅を100%に設定 */
+    height: 150px; /* 高さを統一 */
 }
 
-.skill-item .item .title {
+.skill-item .item .title, .skill-item2 .item .title {
     margin: 10px 0 0;
     padding: 0 20px;
     font-weight: bold;
     font-size: 20px;
 }
 
-.skill-item .item .description {
+.skill-item .item .description, .skill-item2 .item .description {
     margin: 5px 0 0;
     padding: 0 20px;
     font-size: 16px;
 }
-
-
-.skill-item2 {
-    display: flex;
-    justify-content: start;
-}
-
-.skill-item2 .item {
-    width: 20%;
-    margin: 0;
-    padding: 0 0 20px 0;
-    box-sizing: border-box;
-    background: #eef0ff;
-}
-
-.skill-item2 .item .image {
-    margin: 0;
-    padding: 0;
-}
-
-.skill-item2 .item .image img {
-    width: 100%;
-    height: 150px;
-}
-
-.skill-item2 .item .title {
-    margin: 10px 0 0;
-    padding: 0 20px;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.skill-item2 .item .description {
-    margin: 5px 0 0;
-    padding: 0 20px;
-    font-size: 16px;
-}
-
-
-.item-list {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.item-list .item {
-    width: 20%;
-    margin: 0;
-    padding: 0 0 20px 0;
-    box-sizing: border-box;
-    background: #eef0ff;
-}
-
-.item-list .item .image {
-    margin: 0;
-    padding: 0;
-}
-
-.item-list .item .image img {
-    width: 100%;
-    height: 150px;
-}
-
-.item-list .item .title {
-    margin: 10px 0 0;
-    padding: 0 20px;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.item-list .item .description {
-    margin: 5px 0 0;
-    padding: 0 20px;
-    font-size: 16px;
-}
-
 
 a {
     text-decoration: none;
