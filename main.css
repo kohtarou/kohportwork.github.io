@@ -161,6 +161,7 @@ h4 {
 .works-img6 .ws-img6 img {
     height: 200px; /* 画像の高さを自動調整 */
     object-fit: cover; /* 画像をコンテナに合わせてカバー */
+    border: solid 10px #000; /* 画像に枠線を追加 */
 }
 
 body {
