@@ -151,11 +151,16 @@ h4 {
     object-fit: cover;
 }
 
+.works-img6 {
+    display: flex;
+    gap: 0 0px;
+    width: 40%;
+    justify-content: flex-start;
+}  
+
 .works-img6 .ws-img6 img {
-    max-width: 100%; /* 画像の幅をコンテナに合わせる */
-    height: auto; /* 画像の高さを自動調整 */
+    height: 200px; /* 画像の高さを自動調整 */
     object-fit: cover; /* 画像をコンテナに合わせてカバー */
-    max-height: 200px; /* 画像の最大高さを200pxに設定 */
 }
 
 body {
