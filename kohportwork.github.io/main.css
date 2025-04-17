@@ -1,3 +1,5 @@
+/* filepath: c:\Users\nakao\Documents\kohportwork.github.io\main.css */
+
 /* 全体の基本設定 */
 html {
     font-family: 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
@@ -78,6 +80,35 @@ h4:after {
     margin: 0.7em 0;
 }
 
+/* メニューアイコン */
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+/* ドロップダウンメニュー */
+.dropdown-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.dropdown-menu a {
+    padding: 10px;
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f0f0f0;
+}
+
 /* コンテンツボックス */
 .boxwrap {
     padding: 1em;
@@ -154,7 +185,6 @@ p code {
     border: solid 1px #d6dde4;
 }
 
-
 /* 画像の最大幅を親要素に合わせる */
 img {
     max-width: 100%;
@@ -183,67 +213,4 @@ img {
     flex: 1 1 calc(33.333% - 10px); /* 3列レイアウト */
     max-width: calc(33.333% - 10px);
     box-sizing: border-box;
-}
-
-
-/* メニューアイコン */
-.menu-icon {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    width: 30px;
-    height: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    cursor: pointer;
-    z-index: 1000;
-}
-
-.menu-icon span {
-    display: block;
-    width: 100%;
-    height: 4px;
-    background-color: #333;
-    border-radius: 2px;
-    transition: 0.3s;
-}
-
-/* メニュー */
-.menu {
-    position: fixed;
-    top: 0;
-    right: -100%;
-    width: 200px;
-    height: 100%;
-    background-color: #f4f4f4;
-    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
-    transition: right 0.3s ease;
-    z-index: 999;
-}
-
-.menu ul {
-    list-style: none;
-    padding: 20px;
-    margin: 0;
-}
-
-.menu ul li {
-    margin: 20px 0;
-}
-
-.menu ul li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 18px;
-    transition: color 0.3s;
-}
-
-.menu ul li a:hover {
-    color: #0073e6;
-}
-
-/* メニューが表示されたとき */
-.menu.open {
-    right: 0;
 }

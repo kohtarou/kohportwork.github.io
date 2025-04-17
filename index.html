@@ -18,16 +18,22 @@
     </h1>
 </header>
 
-    <div class="navlink">
-        <nav class="gnav">
-        <ul class="gnav-list">
-        <li class="gnav-item"><a href="#about">ABOUT</a></li>
-        <li class="gnav-item"><a href="#works">WORKS</a></li>
-        <li class="gnav-item"><a href="#skill">SKILL</a></li>
-        <li class="gnav-item"><a href="#contact">CONTACT</a></li>
-        </ul>
-        </nav>
+    <!-- メニューアイコン -->
+    <div class="menu-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
     </div>
+
+    <!-- メニュー -->
+    <nav class="menu" id="menu">
+        <ul>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#works">WORKS</a></li>
+            <li><a href="#skill">SKILL</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
 
 
 <section id="about">
@@ -172,22 +178,22 @@
         <div class="skill-item">
 
             <div class="item">
-                <figure class="image"><img src="images/プログラミング言語/HTML.png"></figure>
                 <h4 class="title">HTML</h4>
+                <figure class="image"><img src="images/プログラミング言語/HTML.png"></figure>
                 <p class="description">
                     中学3年生の時に学校の授業で学習しました。その後様々なサイトを検証でのぞいて自己学習を続けました。</p>
             </div>
 
             <div class="item">   
-                <figure class="image"><img src="images/プログラミング言語/Java.png"></figure>
                 <h4 class="title">Java</h4>
+                <figure class="image"><img src="images/プログラミング言語/Java.png"></figure>
                 <p class="description">
                     パソコン甲子園をJavaで挑戦しました。</p>
             </div>
 
             <div class="item">
-                <figure class="image"><img src="images/プログラミング言語/Python2.png"></figure>
                 <h4 class="title">Python</h4>
+                <figure class="image"><img src="images/プログラミング言語/Python2.png"></figure>
                 <p class="description">
                     主に授業、また個人でもGoogle Colaboratoryで学習しました。</p>
             </div>
@@ -195,32 +201,48 @@
 
         <div class="skill-item2">
             <div class="item">
-                <figure class="image"><img src="images/プログラミング言語/C.png"></figure>
                 <h4 class="title">C</h4>
+                <figure class="image"><img src="images/プログラミング言語/C.png"></figure>
                 <p class="description">
                     プログラミング研究部で学習しました。</p>
             </div>
 
             <div class="item">
-                <figure class="image"><img src="images/プログラミング言語/C++.png"></figure>
                 <h4 class="title">C++</h4>
+                <figure class="image"><img src="images/プログラミング言語/C++.png"></figure>
                 <p class="description">
                     プログラミング研究部で学習しました。</p>
             </div>
 
             <div class="item">
-                <figure class="image"><img src="images/環境技術/Arduino.png"></figure>
                 <h4 class="title">Arduino</h4>
+                <figure class="image"><img src="images/環境技術/Arduino.png"></figure>
                 <p class="description">
                     主に授業、実習で学んだ。マイコンを使ったセンサーなどのプログラムを学習しました。</p>
             </div>
 
             <div class="item">
-                <figure class="image"><img src="images/プログラミング言語/CSS3_logo.png"></figure>
                 <h4 class="title">CSS</h4>
+                <figure class="image"><img src="images/プログラミング言語/CSS3_logo.png"></figure>
                 <p class="description">
                     プログラミングの授業で学習しました。その他、サイト作成時に自己学習しました。</p>
             </div>
+
+            <div class="item">
+                <h4 class="title">React</h4>
+                <figure class="image"><img src="images/プログラミング言語/react.png"></figure>
+                <p class="description">
+                    主にTypeScriptと合わせて使用しています。学校の授業で学習した他、サイト作成時に自己学習しました。</p>
+            </div>
+
+            <div class="item">
+                <h4 class="title">TypeScript</h4>
+                <figure class="image"><img src="images/プログラミング言語/Typescript.png"></figure>
+                <p class="description">
+                    主にReactと合わせて使用しています。学校の授業で学習した他、サイト作成時に自己学習しました。</p>
+            </div>
+
+
         </div>
 </section>
 
@@ -228,40 +250,40 @@
         <div class="item-list">
         <!-- 各スキルの説明が適切に記述されていると仮定しています -->
             <div class="item">
-                <figure class="image"><img src="images/環境技術/GitHub.png" width="40%" /></figure>
                 <h4 class="title">GitHub</h4>
+                <figure class="image"><img src="images/環境技術/GitHub.png" width="40%" /></figure>
                 <p class="description">
                     1年生の頃の実験実習、また2年生のプログラミングの授業で学習しました。
                 </p>
             </div>
                             
             <div class="item">
-                <figure class="image"><img src="images/環境技術/GoogleColaboratory.png" width="40%" /></figure>
                 <h4 class="title">Google Colaboratory</h4>
+                <figure class="image"><img src="images/環境技術/GoogleColaboratory.png" width="40%" /></figure>
                 <p class="description">
                     プログラミングの授業で学習し、Pythonの開発環境として使用しています。
                 </p>
             </div>
 
             <div class="item">
-                <figure class="image"><img src="images/環境技術/VSCode.png" width="40%" /></figure>
                 <h4 class="title">VSCode</h4>
+                <figure class="image"><img src="images/環境技術/VSCode.png" width="40%" /></figure>
                 <p class="description">
                     Python、C、HTML、CSSなどの開発環境として使用しています。
                 </p>
             </div>
                             
             <div class="item">
-                <figure class="image"><img src="images/環境技術/ArduinoIDE.png" width="40%" /></figure>
                 <h4 class="title">ArduinoIDE</h4>
+                <figure class="image"><img src="images/環境技術/ArduinoIDE.png" width="40%" /></figure>
                 <p class="description">
                     2年生の工学基礎実習でArduinoを稼働させるために使用しました。
                 </p>
             </div>
 
             <div class="item">
-                <figure class="image"><img src="images/環境技術/TinkerCAD.png" width="40%" /></figure>
                 <h4 class="title">TinkerCAD</h4>
+                <figure class="image"><img src="images/環境技術/TinkerCAD.png" width="40%" /></figure>
                 <p class="description">
                     1年生の実験実習の3Dモデリング、2年生のマイクロコンピュータの授業の回路設計で使用しました。
                 </p>
