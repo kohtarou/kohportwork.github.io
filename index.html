@@ -32,7 +32,7 @@
         <ul>
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#works">WORKS</a></li>
-            <li><a href="#skill">SKILL</a></li>
+            <li><a href="#skill">SKILL & TOOLS</a></li>
             <li><a href="#contact">CONTACT</a></li>
         </ul>
     </nav>
@@ -173,34 +173,25 @@
 </section>
     <!-- /works -->
     <!-- skill -->
-<section class="skill section" id="skill">
-    <h2 class="title">Skills</h2>
-        <h3>Languages</h3>
-        <!-- 各スキルの説明が適切に記述されていると仮定しています -->
-        <div class="skill-item">
-
-            <div class="item">
-                <h4 class="title">HTML</h4>
-                <figure class="image"><img src="images/プログラミング言語/HTML.png"></figure>
-                <p class="description">
-                    中学3年生の時に学校の授業で学習しました。その後様々なサイトを検証でのぞいて自己学習を続けました。</p>
+    <section class="skills-tools section" id="skills-tools">
+        <h2 class="title">Skills & Tools</h2>
+        <div class="grid-container">
+            <!-- スキルやツールのブロック -->
+            <div class="grid-item" onclick="openModal('html')">
+                <img src="images/プログラミング言語/HTML.png" alt="HTML">
+                <p>HTML</p>
             </div>
-
-            <div class="item">
-                <h4 class="title">CSS</h4>
-                <figure class="image"><img src="images/プログラミング言語/CSS3_logo.png"></figure>
-                <p class="description">
-                    プログラミングの授業で学習しました。その他、サイト作成時に自己学習しました。</p>
+            <div class="grid-item" onclick="openModal('css')">
+                <img src="images/プログラミング言語/CSS3_logo.png" alt="CSS">
+                <p>CSS</p>
             </div>
             
-            <div class="item">   
-                <h4 class="title">Java</h4>
-                <figure class="image"><img src="images/プログラミング言語/Java.png"></figure>
-                <p class="description">
-                    パソコン甲子園をJavaで挑戦しました。</p>
+            <div class="grid-item" onclick="openModal('java')">  
+                <img src="images/プログラミング言語/Java.png" alt="CSS">
+                <p>Java</p>
             </div>
 
-            <div class="item">
+            <div class="grid-item" onclick="openModal('python')">
                 <h4 class="title">Python</h4>
                 <figure class="image"><img src="images/プログラミング言語/Python2.png"></figure>
                 <p class="description">
@@ -291,7 +282,16 @@
                 </p>
             </div>
         </div>
-            
+         
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modal-image" src="" alt="">
+                <h3 id="modal-title"></h3>
+                <p id="modal-description"></p>
+            </div>
+        </div>
+
             <!-- /skill -->
             <!-- contact -->
         <section class="contact section" id="contact">
